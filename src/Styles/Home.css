@@ -1,0 +1,254 @@
+#homeAll {
+    position: relative;
+    left: 100px;
+}
+
+body, html {
+    margin:0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: lightgray;
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#homePic {
+    background-image: url("./Pictures/HomePic.jpg");
+    position: relative;
+    right: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+element::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+@media only screen and (min-width: 900px) {
+    #typeWriterContainer {
+        width: 20vw;
+        position: relative;
+        bottom: 15vw;
+        
+    }
+    
+    #homeIntro1 {
+        color: white;
+        animation: typing1 2s steps(20, end) forwards;
+        animation-delay: 1s;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        font-family: 'IBM Plex Sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.5vw;
+        left: 20px;
+        text-shadow: 4px 4px 4px black;
+    }
+    
+    @keyframes typing1 {
+        
+        0% {
+            width: 0; 
+            border-right: .15em solid orange;
+        }
+        95% {
+            width: 100%;
+            border-right: .15em solid orange;
+        }
+        100% {
+            width: 100%;
+            border-right: none;
+        }
+      }
+
+      #homeIntro2 {
+        position: relative;
+        color: rgb(155, 226, 217);
+        color: white;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        font-family: 'IBM Plex Sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.5vw;
+        word-wrap: break-word;
+        z-index: 999;
+        text-shadow: 4px 4px 4px black;
+    }
+    
+     #homeIntro2 {
+        animation: typing2 3s steps(40, end) forwards;
+        animation-delay: 3s;
+     }
+
+      @keyframes typing2 {
+    
+        0% {
+            width: 0; 
+            border-right: .15em solid orange;
+        }
+        95% {
+            width: 50vw; 
+            border-right: .15em solid orange;
+        }
+        100% {
+            width: 50vw; 
+            border-right: none;
+        }
+      } 
+}
+
+@media only screen and (max-width: 900px) {
+    #typeWriterContainer {
+        display: inline-block; 
+        width: 24vw;
+        position: relative;
+        right: 40px;
+        bottom: 15vw;
+    }
+    
+    #homeIntro1 {
+        color: white;
+        animation: typing1 2s steps(20, end) forwards;
+        animation-delay: 1s;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        font-family: 'IBM Plex Sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.5vw;
+        left: 20px;
+        text-shadow: 4px 4px 4px black;
+    }
+    
+    @keyframes typing1 {
+        
+        0% {
+            width: 0; 
+            border-right: .15em solid orange;
+        }
+        95% {
+            width: 100%;
+            border-right: .15em solid orange;
+        }
+        100% {
+            width: 100%;
+            border-right: none;
+        }
+      }
+
+      #homeIntro2 {
+        position: relative;
+        color: rgb(155, 226, 217);
+        color: white;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        font-family: 'IBM Plex Sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.5vw;
+        word-wrap: break-word;
+        z-index: 999;
+        text-shadow: 4px 4px 4px black;
+    }
+    
+     #homeIntro2 {
+        animation: typing2 3s steps(40, end) forwards;
+        animation-delay: 3s;
+     }
+
+      @keyframes typing2 {
+    
+        0% {
+            width: 0; 
+            border-right: .15em solid orange;
+        }
+        95% {
+            width: 58vw; 
+            border-right: .15em solid orange;
+        }
+        100% {
+            width: 58vw;
+            border-right: none;
+        }
+      } 
+}
+
+     
+/* #homeDownButton {
+    position: relative;
+    top: 5vh;
+    display: inline-block;
+    height: 6vw;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: rgb(174, 245, 235) ;
+    opacity: .9;
+    font-size: 4vw;
+} */
+
+#homeDownArrow {
+    position: relative;
+    color: #36ACF5;
+    left: 15vw;
+    font-size: 6vw;
+    cursor: pointer;
+}
+
+#homeDescriptionContainer {
+    opacity: .8;
+    width: 30vw;
+    text-align: center;
+    font-size: .75vw;
+    position: relative;
+    left: 55vw;
+    bottom: 615px;
+    font-family: 'Martel', serif;
+    line-height: 30px;
+}
+
+#homeAboutMe {
+    padding-left: 0vw;
+    font-family: 'Martel', serif;
+    font-size: 1vw;
+    border-bottom: 1px solid black;
+    width: 7vw;
+    padding-left: 14px;
+    position: relative;
+    left: 11vw;
+    margin-top: 20px;
+    background-color: transparent;
+    height: 1.75vw;
+    cursor: pointer;
+}
+
+#homeAboutMeArrow {
+    position: relative;
+}
+
+#homePortfolioContainer {
+    opacity: .8;
+    width: 30vw;
+    text-align: center;
+    font-size: 1vw;
+    position: relative;
+    left: 54.5vw;
+    bottom: 600px;
+    font-family: 'Martel', serif;
+}
