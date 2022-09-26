@@ -1,31 +1,3 @@
-/* .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-  }
- 
-.bm-burger-bars {
-    background: #373a47;
-  }
-  
-  .bm-cross {
-    background: black;
-  }
-  
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-
-  Menu {
-    width: 18vw; 
-  }
-   */
-
-
-
-
-  
-
 button {
     width: 100%;
     border: none;
@@ -63,7 +35,6 @@ button {
     text-align: left;
     left: 20px;
     top: 40px;
-    
 }
 
 #navTitle2 {
@@ -81,28 +52,6 @@ button {
  #aboutNav {
     margin-top: 4vh;
 }
-
-/* #skillsNav {
-
-}
-
-#educationNav {
-
-}
-
-#projectsNav {
- 
-}
-
-#resumeNav {
-   
-}
-
-#contactNav {
-   
-} */
-
-/* Nav Hovers */
 
 #aboutNav:hover {
     background-color: rgb(174, 245, 235);
@@ -231,5 +180,73 @@ button {
     }
     100% {
         width: 0vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    button {
+        padding-left: 10vw;
+        font-size: 2.5vw;
+    }
+
+    #navTitle {
+        font-size: 4vw;
+    }
+
+    #navTitle2 {
+        font-size: 2vw;
+    }
+
+    /* Icons */
+
+#educationNavIcon  {
+    font-size: 30px;
+}
+
+#skillsNavIcon {
+    font-size: 30px;
+}
+
+#navAboutIcon {
+    font-size: 30px;
+}
+
+#projectsNavIcon {
+    font-size: 30px;
+}
+
+#contactNavIcon {
+    font-size: 30px;
+}
+
+#resumeNavIcon {
+    font-size: 30px;
+}
+
+.navExitXAfter {
+    font-size: 2.5vw;
+}
+
+#navHamMenuIcon {
+    font-size: 3.5vw;
+}
+
+@keyframes moveX {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 45vw
+    }
+}
+
+    @keyframes openNavMenu {
+        0% {
+            width: 0vw;
+        }
+        100% {
+            width: 50vw;
+        }
     }
 }

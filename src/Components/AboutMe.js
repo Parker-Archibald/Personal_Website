@@ -8,7 +8,7 @@ class AboutMe extends Component {
                 <h1 id='aboutMeTitle'>About Me</h1>
                 <div id='aboutMeBackImg'/>
                     <div id='aboutMeText'>
-                        <h2 id='aboutMeH1'>Nice to meet you, I'm Parker Archibald</h2>
+                        <div id='aboutMeH1'>Nice to meet you, I'm Parker Archibald</div>
                         <div id='aboutMeParagraph'>Parker grew up in Pleasant Grove, Utah. He has always been kind and caring for others. Currently studying Web Development while 
                         enjoying the love of his life, Nicole, and his newborn son, Boston. He is a Certified Full Stack Web Developer well versed in structuring, developing and 
                         implementing interactive websites with experience in Object Oriented and Procedural programming, HTML5, CSS3, JavaScript, and React.

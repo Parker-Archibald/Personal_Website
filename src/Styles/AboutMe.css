@@ -11,7 +11,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
     width: auto;
     position: relative;
     opacity: .4;
@@ -61,4 +61,39 @@
     font-size: 1.5vw;
     line-height: 60px;
     padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutMeContainer {
+        margin-top: -11.10vh;
+    }
+
+    #aboutMeTitle {
+        background-color: #36ACF5;
+        padding-left: 40px;
+        height: 6vh;
+        font-size: 4vw;
+    }
+
+    #aboutMePic {
+        height: 42vh;
+        left: 10vw;
+        top: 24vw;
+    }
+
+    #aboutMeText {
+        top: 55vh;
+        left: 9vw;
+        width: 85vw;
+    }
+
+    #aboutMeH1 {
+        font-size: 4vw;
+    }
+
+    #aboutMeParagraph {
+        font-size: 3vw;
+        line-height: 35px;
+        padding: 20px;
+    }
 }

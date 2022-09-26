@@ -1,6 +1,6 @@
 #skillsContainer {
     position: relative;
-    top: -16vw;
+    top: -1vw;
     margin-left: -100px;
 }
 
@@ -18,8 +18,17 @@
 
 #skillsAll {
     position: relative;
+    text-align: center;
     top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30vw;
+}
 
+#htmlContainer, #cssContainer, #javascriptContainer, #reactContainer, #nodeJSContainer, #jsxContainer, #mysqlContainer, #mongoDBContainer,
+#githubContainer, #herokuContainter, #expressJSContainer, #postmanContainer, #jiraContainer, #trelloContainer, #freshdeskContainer, 
+#visualStudioContainer, #wordContainer, #excelContainer {
+    margin: 2.5vw;
 }
 
 /* HTML5 */
@@ -28,15 +37,13 @@
     width: auto;
     height: 12vw;
     filter: grayscale(100%);
-    
 }
 
-#htmlContainer {
-    position: absolute;
-    left: 3vw;
+/* #htmlContainer {
+    position: relative;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #html5Text {
     position: relative;
@@ -53,12 +60,12 @@
 }
 
 /* Css3 */
-#cssContainer {
-    position: absolute;
+/* #cssContainer {
+    position: relative;
     left: 17vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsCss3Logo {
     width: auto;
@@ -78,12 +85,12 @@
 
 /* Javascript */
 
-#javascriptContainer {
-    position: absolute;
+/* #javascriptContainer {
+    position: relative;
     left: 31vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsJavascriptLogo {
     width: auto;
@@ -103,17 +110,17 @@
 
 #skillsJavascriptText {
     position: relative;
-    left: 2px;
+    /* left: 2px; */
 }
 
 /* React */
 
-#reactContainer {
+/* #reactContainer {
     position: absolute;
     left: 45vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsReactLogo {
     width: auto;
@@ -133,13 +140,13 @@
 
 /* Node JS */
 
-#nodeJSContainer {
+/* #nodeJSContainer {
     position: absolute;
-    left: 59vw;
-    top: 3vw;
+    left: 59vw; 
+     top: 3vw; 
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsNodeJSLogo {
     width: 10vw;
@@ -158,12 +165,12 @@
 
 /* JSX */
 
-#jsxContainer {
+/* #jsxContainer {
     position: absolute;
     left: 73vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsJsxLogo {
     width: auto;
@@ -183,12 +190,12 @@
 
 /* MySql */
 
-#mysqlContainer {
+/* #mysqlContainer {
     position: absolute;
     left: 87vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsMysqlLogo {
     width: 10vw;
@@ -207,13 +214,13 @@
 
 /* MongoDB */
 
-#mongoDBContainer {
+/* #mongoDBContainer {
     position: absolute;
-    left: 3vw;
-    top: 17vw;
+    left: 3vw; */
+    /* top: 17vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsMongoDBLogo {
     width: 10vw;
@@ -232,13 +239,13 @@
 
 /* Github */
 
-#githubContainer {
+/* #githubContainer {
     position: absolute;
     left: 17vw;
     top: 14vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsGithubLogo {
     width: auto;
@@ -258,13 +265,13 @@
 
 /* Heroku */
 
-#herokuContainter {
+/* #herokuContainter {
     position: absolute;
     left: 31vw;
     top: 14vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsHerokuLogo {
     width: auto;
@@ -284,13 +291,13 @@
 
 /* Express.JS */
 
-#expressJSContainer {
+/* #expressJSContainer {
     position: absolute;
     left: 45vw;
     top: 16vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsExpressJS {
     width: 10vw;
@@ -312,13 +319,13 @@
 
 /* Postman */
 
-#postmanContainer {
+/* #postmanContainer {
     position: absolute;
     left: 59vw;
     top: 14vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsPostmanLogo {
     width: auto;
@@ -336,13 +343,13 @@
 
 /* Jira */
 
-#jiraContainer {
+/* #jiraContainer {
     position: absolute;
     left: 73vw;
     top: 14vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsJiraLogo {
     width: auto;
@@ -360,13 +367,13 @@
 
 /* Trello */
 
-#trelloContainer {
+/* #trelloContainer {
     position: absolute;
     left: 87vw;
     top: 14vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsTrelloLogo {
     width: auto;
@@ -384,13 +391,13 @@
 
 /* Freshdesk */
 
-#freshdeskContainer {
+/* #freshdeskContainer {
     position: absolute;
     left: 3vw;
     top: 28vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsFreshdeskLogo {
     width: auto;
@@ -408,13 +415,13 @@
 
 /* Visual Studio */
 
-#visualStudioContainer {
+/* #visualStudioContainer {
     position: absolute;
     left: 17vw;
     top: 28vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsVisualStudioLogo {
     width: auto;
@@ -432,13 +439,13 @@
 
 /* Word */
 
-#wordContainer {
+/* #wordContainer {
     position: absolute;
     left: 31vw;
     top: 28vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsWordLogo {
     width: auto;
@@ -456,13 +463,13 @@
 
 /* Excel */
 
-#excelContainer {
+/* #excelContainer {
     position: absolute;
     left: 45vw;
     top: 28vw;
     text-align: center;
     width: 10vw;
-}
+} */
 
 #skillsexcelLogo {
     width: auto;
@@ -564,4 +571,25 @@
         filter: grayscale(100%);
         width: 11vw;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    #skillsTitle {
+        font-size: 3vw;
+    }
+
+    #skillsAll {
+        position: relative;
+        top: 4vw;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    #htmlContainer, #cssContainer, #javascriptContainer, #reactContainer, #nodeJSContainer, #jsxContainer, #mysqlContainer, #mongoDBContainer,
+#githubContainer, #herokuContainter, #expressJSContainer, #postmanContainer, #jiraContainer, #trelloContainer, #freshdeskContainer, 
+#visualStudioContainer, #wordContainer, #excelContainer {
+    margin: 3vw;
+}
+
 }

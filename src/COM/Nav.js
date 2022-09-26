@@ -42,6 +42,17 @@ class Nav extends Component {
             
                 toScroll.scrollIntoView();
             }
+            else if(e.target.id === 'educationNav') {
+                let toScroll = document.getElementById('educationContainer');
+            
+                toScroll.scrollIntoView();
+            }
+
+            else if(e.target.id === 'projectsNav') {
+                let toScroll = document.getElementById('projectsContainer');
+            
+                toScroll.scrollIntoView();
+            }
             else {
                 alert('none')
             }
@@ -66,10 +77,10 @@ class Nav extends Component {
                         <button id='skillsNav' onClick={handleScrollToDiv}>
                             <GoGraph id='skillsNavIcon'/> Skills
                         </button>
-                        <button id='educationNav'>
+                        <button id='educationNav' onClick={handleScrollToDiv}>
                             <FcGraduationCap id='educationNavIcon'/> Education
                         </button>
-                        <button id='projectsNav'>
+                        <button id='projectsNav' onClick={handleScrollToDiv}>
                             <AiOutlineFundProjectionScreen id='projectsNavIcon'/>Projects
                         </button>
                         <button id='contactNav'>
