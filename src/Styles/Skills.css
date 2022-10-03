@@ -22,7 +22,7 @@
     top: 4vw;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: -30vw;
+    margin-bottom: -40vw;
 }
 
 #htmlContainer, #cssContainer, #javascriptContainer, #reactContainer, #nodeJSContainer, #jsxContainer, #mysqlContainer, #mongoDBContainer,

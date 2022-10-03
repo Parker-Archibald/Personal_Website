@@ -1,6 +1,6 @@
 #aboutMeContainer {
     position: relative;
-    margin-top: -17.5vh;
+    margin-top: -17.1vh;
     text-align: left;
     width: 100vw;
     margin-left: -100px;
@@ -11,7 +11,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 86vh;
     width: auto;
     position: relative;
     opacity: .4;
@@ -34,16 +34,16 @@
 #aboutMePic {
     position: absolute;
     width: auto;
-    height: 40vw;
+    height: 34vw;
     left: 58vw;
-    top: 10vw;
+    top: 8vw;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px gray;
 }
 
 #aboutMeText {
     position: absolute;
-    top: 16vw;
+    top: 14vw;
     left: 4vw;
     width: 50vw;
     padding-top: 10px;
